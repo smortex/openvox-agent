@@ -10,7 +10,7 @@ def location_for(place)
   end
 end
 
-gem 'vanagon', *location_for(ENV['VANAGON_LOCATION'] || 'https://github.com/openvoxproject/vanagon#main')
+gem 'vanagon', git: 'https://github.com/smortex/vanagon', ref: 'd85328ea1435efe1627f8354c37f9f054a09e417'
 gem 'packaging', *location_for(ENV['PACKAGING_LOCATION'] || '~> 0.105')
 gem 'artifactory'
 gem 'rake'
