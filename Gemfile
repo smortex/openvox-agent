@@ -10,7 +10,7 @@ def location_for(place)
   end
 end
 
-gem 'vanagon', git: 'https://github.com/smortex/vanagon', ref: 'd85328ea1435efe1627f8354c37f9f054a09e417'
+gem 'vanagon', git: 'https://github.com/smortex/vanagon', ref: '35eacf3dec185777f3f9b67da33e2d926125f198'
 gem 'packaging', *location_for(ENV['PACKAGING_LOCATION'] || '~> 0.105')
 gem 'artifactory'
 gem 'rake'
